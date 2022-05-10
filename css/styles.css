@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@200;400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 10px;
+    background-color: rgb(247, 247, 247);
+    width: 100vw;
+    background-image: url('./img/IFGIC2DMS5C4FPFIO6SE7GUJ3I.jpg');
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+    margin: 3rem 0 2rem 0;
+    text-align: center;
+}
+
+
+
+header {
+    text-align: center;
+}
+
+
+figcaption,
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    margin: .8rem 0;
+}
+
+header p {
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+figure {
+    text-align: center;
+    background-color: white;
+    width: 96%;
+    margin: 0 auto;
+    padding: 1rem 0 1rem 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+#tribute-info {
+    margin: 0 auto;
+    width: 40vw;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+
+#curiosidades-container {
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 1rem;
+
+}
+
+ul {
+    font-family: 'Lato';
+    font-size: 1rem;
+}
+
+li {
+    margin: 1rem 0;
+}
+
+a,
+a:link,
+a:visited,
+a:hover {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+@media (max-width: 1200px) {
+    h2 {
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width: 1024px) {
+
+    p,
+    figcaption {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 3.2rem;
+    }
+}
+
+
+@media (max-width:480px) {
+
+    p,
+    figcaption {
+        font-size: .8rem;
+    }
+
+    #tribute-info {
+        width: 90vw;
+    }
+
+    ul {
+        font-size: .7rem;
+    }
+}
